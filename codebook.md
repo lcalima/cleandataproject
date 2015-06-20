@@ -1,4 +1,4 @@
-####Description of Variables
+#####Description of Variables
 
 *path* - directory location of UCI HAR Dataset  
 *files* - contains all the files in UCI HAR Dataset
