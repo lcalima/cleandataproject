@@ -1,25 +1,14 @@
-#####Description of Variables
+#####Description of run_analysis.R
 
-*path* - directory location of UCI HAR Dataset  
-*files* - contains all the files in UCI HAR Dataset
+Data source:  
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
-*testdata* - represents test set  
-*trainingdata* - represents training set  
-*dataset* - combination of testdata and trainingdata  
+Data description:  
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-*testlabels* - contains y_test.txt  
-*traininglabels* - contains y_train.txt  
-*datalabels* - combination of testlabels and traininglabels  
-
-*testsubject* - contains subject_test.txt  
-*trainingsubject* - contains subject_train.txt  
-*datasubjects* - combination of testsubject and trainingsubject  
-
-*datafeatures* - contains features.txt  
-
-*data* - combines dataset,datalabels and datasubjects  
-
-*datamean* - mean for each measurement  
-*datastddev* - standard deviation for each measurement  
-
-*activityname* - contains activity_labels.txt  
+run_analysis.R does the following:  
+1. Merges the training and the test sets to create one data set.  
+2. Extracts only the measurements on the mean and standard deviation for each measurement.  
+3. Uses descriptive activity names to name the activities in the data set  
+4. Appropriately labels the data set with descriptive variable names.  
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
