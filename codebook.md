@@ -1,10 +1,10 @@
 ####Description of Variables
 
-path - directory location of UCI HAR Dataset
-files - contains all the files in UCI HAR Dataset
-testdata - represents test set
-trainingdata - represents training set
-dataset - combination of testdata and trainingdata
+path - directory location of UCI HAR Dataset  
+files - contains all the files in UCI HAR Dataset  
+testdata - represents test set  
+trainingdata - represents training set  
+dataset - combination of testdata and trainingdata  
 
 testlabels - contains y_test.txt
 traininglabels - contains y_train.txt
