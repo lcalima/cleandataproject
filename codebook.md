@@ -1,25 +1,26 @@
 ####Description of Variables
 
-path - directory location of UCI HAR Dataset  
-files - contains all the files in UCI HAR Dataset  
-testdata - represents test set  
-trainingdata - represents training set  
-dataset - combination of testdata and trainingdata  
+*path* - directory location of UCI HAR Dataset  
+*files* - contains all the files in UCI HAR Dataset
 
-testlabels - contains y_test.txt  
-traininglabels - contains y_train.txt  
-datalabels - combination of testlabels and traininglabels  
+*testdata* - represents test set  
+*trainingdata* - represents training set  
+*dataset* - combination of testdata and trainingdata  
 
-testsubject - contains subject_test.txt  
-trainingsubject - contains subject_train.txt  
-datasubjects - combination of testsubject and trainingsubject  
+*testlabels* - contains y_test.txt  
+*traininglabels* - contains y_train.txt  
+*datalabels* - combination of testlabels and traininglabels  
 
-datafeatures - contains features.txt  
+*testsubject* - contains subject_test.txt  
+*trainingsubject* - contains subject_train.txt  
+*datasubjects* - combination of testsubject and trainingsubject  
 
-data - combines dataset,datalabels and datasubjects  
+*datafeatures* - contains features.txt  
 
-datamean - mean for each measurement  
-datastddev - standard deviation for each measurement  
+*data* - combines dataset,datalabels and datasubjects  
 
-activityname - contains activity_labels.txt  
+*datamean* - mean for each measurement  
+*datastddev* - standard deviation for each measurement  
+
+*activityname* - contains activity_labels.txt  
 
