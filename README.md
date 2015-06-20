@@ -1,5 +1,7 @@
 #####Description of run_analysis.R
 
+run_analysis.R is a script that processes UCI's Human Activity Recognition Using Smartphones Dataset.  
+
 Data source:  
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
