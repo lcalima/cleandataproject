@@ -2,6 +2,7 @@
 
 path - directory location of UCI HAR Dataset  
 files - contains all the files in UCI HAR Dataset
+
 testdata - represents test set  
 trainingdata - represents training set  
 dataset - combination of testdata and trainingdata  
@@ -15,7 +16,6 @@ trainingsubject - contains subject_train.txt
 datasubjects - combination of testsubject and trainingsubject  
 
 datafeatures - contains features.txt  
-
 data - combines dataset,datalabels and datasubjects  
 
 datamean - mean for each measurement  
